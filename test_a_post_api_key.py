@@ -12,4 +12,3 @@ def test_post_AuthToken_valid_admin(username=valid_username, password=valid_pass
     assert "token" in result
 
     token = result["token"]
-c
